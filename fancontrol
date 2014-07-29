@@ -1,0 +1,8 @@
+INTERVAL=3
+FCTEMPS=/sys/module/ec_pwm/fans/right_pwm=/sys/class/hwmon/hwmon1/device/temp1_input /sys/module/ec_pwm/fans/left_pwm=/sys/class/hwmon/hwmon1/device/temp1_input
+FCFANS=/sys/module/ec_pwm/fans/right_pwm=/sys/module/ec_pwm/fans/right_pwm /sys/module/ec_pwm/fans/left_pwm=/sys/module/ec_pwm/fans/left_pwm
+MINTEMP=/sys/module/ec_pwm/fans/right_pwm=55 /sys/module/ec_pwm/fans/left_pwm=65
+MAXTEMP=/sys/module/ec_pwm/fans/right_pwm=70 /sys/module/ec_pwm/fans/left_pwm=70
+MINSTART=/sys/module/ec_pwm/fans/right_pwm=10 /sys/module/ec_pwm/fans/left_pwm=10
+MINSTOP=/sys/module/ec_pwm/fans/right_pwm=10 /sys/module/ec_pwm/fans/left_pwm=10
+
